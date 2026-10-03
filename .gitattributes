@@ -1,0 +1,51 @@
+# ==========================================
+# Line endings
+# ==========================================
+
+* text=auto
+
+# C# / .NET source files
+*.cs text
+*.csproj text
+*.fs text
+*.fsproj text
+*.vb text
+*.vbproj text
+*.sln text
+*.slnx text
+*.props text
+*.targets text
+*.json text
+*.xml text
+*.config text
+*.editorconfig text
+*.gitignore text
+*.gitattributes text
+*.md text
+
+# Scripts
+*.sh text eol=lf
+*.bash text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.bmp binary
+*.webp binary
+
+*.pdf binary
+*.zip binary
+*.7z binary
+*.rar binary
+
+# Certificates / keys
+*.pfx binary
+*.p12 binary
+*.pem binary
+*.key binary
