@@ -1,0 +1,81 @@
+# ==========================================
+# .NET / C#
+# ==========================================
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+!**/[Pp]ackages/buildTransitive/
+.nuget/
+
+# .NET local tools
+.dotnet/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ==========================================
+# Logs / temporary files
+# ==========================================
+
+*.log
+*.tmp
+*.temp
+
+# ==========================================
+# Environment / secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# OS files
+# ==========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ==========================================
+# Publish output
+# ==========================================
+
+publish/
